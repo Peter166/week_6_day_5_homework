@@ -1,0 +1,25 @@
+body {
+  background-image: url('2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Comic Sans MS;
+  color: white;
+  text-align: center;
+
+
+}
+
+h1 {
+  text-shadow: white;
+  content {
+
+}
+
+.content {
+  max-width: 750px;
+  margin: auto;
+}
+
+.movies-list-item{
+  text-align: left;
+}

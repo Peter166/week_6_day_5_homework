@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+  <script src="js/app.js"></script>
+  <title>List of Favorite movies.</title>
+</head>
+<body class="content">
+  <h1>Welcome to list of favorite movies.</h1>
+  <h2>Input movie you like and store it for the future.</h2>
+  <input type="submit" id="delete-all" name="" value="Delete All" />
+
+  <form class="form" id="form" action="index.html" method="post">
+    <p>Please input your movie Here:</p>
+
+
+    <label for="title" id="title">Title</label>
+    <input type="text" name="title"  required/>
+
+    <label for="genre" id="genre">Genre</label>
+    <input type="text" name="genre" required/>
+
+    <label for="length" id="length">Length</label>
+    <input type="number" value=""required/>
+
+
+    <label for="watched" >Watched</label>
+    <select id="watched">
+      <option value="" disabled selected></option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+
+    </select>
+
+    <input type="submit" class="button" value="STORE"/>
+  </form>
+
+
+
+  <ul id="movies-list"</ul>
+
+</body>
+</html>
